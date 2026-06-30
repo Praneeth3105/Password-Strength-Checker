@@ -29,7 +29,7 @@ A Python-based GUI application that evaluates password security using industry-s
 
 ## ⚙️ Installation & Usage
 ```bash
-git clone https://github.com/your-username/Password-Strength-Checker.git
+git clone https://github.com/Praneeth3105/Password-Strength-Checker.git
 cd Password-Strength-Checker
 pip install zxcvbn requests
 python main.py
