@@ -5,7 +5,7 @@ import requests
 import hashlib
 import math
 
-# Calculating entropy value
+# Calculating Entropy Values
 def calculate_entropy(password):
     length = len(password)
     charset = 0
@@ -97,7 +97,7 @@ Time to Crack:
 
     messagebox.showinfo("Password Strength Checker", result_message)
 
-    # Visual color feedback
+    # Visual Color Feedback
     colors = ["red", "orange", "yellow", "lightgreen", "green"]
     entry.config(bg=colors[score])
 
