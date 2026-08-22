@@ -5,7 +5,6 @@ import requests
 import hashlib
 import math
 
-# Calculating Entropy Values
 def calculate_entropy(password):
     length = len(password)
     charset = 0
